@@ -1,0 +1,70 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+
+# AETHER runtime
+.aether/
+
+# Build & distribution
+dist/
+build/
+out/
+*.vsix
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing artifacts
+.nyc_output/
+coverage/
+**/.pipeline-tmp*/
+**/.routing-tmp*/
+**/.limits-tmp*/
+**/.recovery-tmp*/
+**/.degradation-tmp*/
+**/.health-tmp*/
+**/.bench-embed-logs/
+aether.db
+
+# Eval generated outputs
+eval/results/
+eval/.config-backup/
+
+# macOS
+._*
+.AppleDouble/
+.LSOverride/
+
+# Temporary files
+tmpclaude-*
+**/tmpclaude-*
+nul
+**/nul
+.routing-tmp-*
+**/.routing-tmp-*
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# Claude session artifacts
+.claude/
